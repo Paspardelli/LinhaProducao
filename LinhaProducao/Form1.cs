@@ -38,7 +38,7 @@ namespace LinhaProducao
                    MessageBox.Show(ex.Message);
 
                }*/
-            try
+           /* try
             {
                 Funcionarios funcionario = new Funcionarios();
 
@@ -57,7 +57,7 @@ namespace LinhaProducao
 
                 MessageBox.Show(ex.Message);
 
-            }
+            }*/
         }
     }
 }

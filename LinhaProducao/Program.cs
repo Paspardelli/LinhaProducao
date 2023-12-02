@@ -1,4 +1,5 @@
-﻿using MySqlX.XDevAPI;
+﻿using LinhaProducao.Views;
+using MySqlX.XDevAPI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace LinhaProducao
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new PaginaLogin());
 
 
 
