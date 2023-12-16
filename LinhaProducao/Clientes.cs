@@ -4,16 +4,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace LinhaProducao
 {
     internal class Clientes : Conexao
     {
-        public int id;
+        public int id { get; set; }
 
         public int id_empresa;
 
-        public string nome;
+        public string nome{ get; set; }
 
         public string telefone;
 
@@ -31,11 +32,6 @@ namespace LinhaProducao
         public string GetDocumento()
         {
             return this.documento;
-        }
-
-        public string GetClientesInfo()
-        {
-            return $"ID: {this.id} \n ID Empresa: {this.id_empresa} \n Nome: {this.nome} \n Telefone: {this.telefone} \n Documento: {this.documento} \n EMAIL: {this.email} \n Data Cadastro: {this.data_cadastro}";
         }
 
         public List<Clientes> GetListaClientes()

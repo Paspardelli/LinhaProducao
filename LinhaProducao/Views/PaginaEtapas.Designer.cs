@@ -44,6 +44,7 @@
             this.botaoCadastroEtapa.TabIndex = 3;
             this.botaoCadastroEtapa.Text = "Cadastrar nova etapa";
             this.botaoCadastroEtapa.UseVisualStyleBackColor = false;
+            this.botaoCadastroEtapa.Click += new System.EventHandler(this.botaoCadastroEtapa_Click);
             // 
             // listViewEtapas
             // 

@@ -44,6 +44,7 @@
             this.botaoCadastroOrdemProducao.TabIndex = 3;
             this.botaoCadastroOrdemProducao.Text = "Cadastrar nova ordem produção";
             this.botaoCadastroOrdemProducao.UseVisualStyleBackColor = false;
+            this.botaoCadastroOrdemProducao.Click += new System.EventHandler(this.botaoCadastroOrdemProducao_Click);
             // 
             // listViewOrdemProducoes
             // 

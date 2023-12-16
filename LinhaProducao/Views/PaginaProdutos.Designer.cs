@@ -44,6 +44,7 @@
             this.botaoCadastroProduto.TabIndex = 3;
             this.botaoCadastroProduto.Text = "Cadastrar novo produto";
             this.botaoCadastroProduto.UseVisualStyleBackColor = false;
+            this.botaoCadastroProduto.Click += new System.EventHandler(this.botaoCadastroProduto_Click);
             // 
             // listViewProdutos
             // 

@@ -40,6 +40,7 @@
             this.textBoxTelefoneCliente = new System.Windows.Forms.TextBox();
             this.botaoCancelar = new System.Windows.Forms.Button();
             this.botaoCadastrar = new System.Windows.Forms.Button();
+            this.comboBoxClientes = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.painelCabecalho.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -68,11 +69,12 @@
             // painelCabecalho
             // 
             this.painelCabecalho.BackColor = System.Drawing.Color.Goldenrod;
+            this.painelCabecalho.Controls.Add(this.comboBoxClientes);
             this.painelCabecalho.Controls.Add(this.labelTitulo);
             this.painelCabecalho.Dock = System.Windows.Forms.DockStyle.Top;
             this.painelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.painelCabecalho.Name = "painelCabecalho";
-            this.painelCabecalho.Size = new System.Drawing.Size(430, 67);
+            this.painelCabecalho.Size = new System.Drawing.Size(431, 67);
             this.painelCabecalho.TabIndex = 1;
             // 
             // labelTitulo
@@ -162,11 +164,19 @@
             this.botaoCadastrar.Text = "Cadastrar";
             this.botaoCadastrar.UseVisualStyleBackColor = false;
             // 
+            // comboBoxClientes
+            // 
+            this.comboBoxClientes.FormattingEnabled = true;
+            this.comboBoxClientes.Location = new System.Drawing.Point(291, 23);
+            this.comboBoxClientes.Name = "comboBoxClientes";
+            this.comboBoxClientes.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxClientes.TabIndex = 6;
+            // 
             // FormularioCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 331);
+            this.ClientSize = new System.Drawing.Size(431, 330);
             this.Controls.Add(this.botaoCadastrar);
             this.Controls.Add(this.botaoCancelar);
             this.Controls.Add(this.groupBox4);
@@ -205,5 +215,6 @@
         private System.Windows.Forms.TextBox textBoxTelefoneCliente;
         private System.Windows.Forms.Button botaoCancelar;
         private System.Windows.Forms.Button botaoCadastrar;
+        private System.Windows.Forms.ComboBox comboBoxClientes;
     }
 }

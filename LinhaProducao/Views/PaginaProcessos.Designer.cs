@@ -44,6 +44,7 @@
             this.botaoCadastroProcesso.TabIndex = 3;
             this.botaoCadastroProcesso.Text = "Cadastrar novo processo";
             this.botaoCadastroProcesso.UseVisualStyleBackColor = false;
+            this.botaoCadastroProcesso.Click += new System.EventHandler(this.botaoCadastroProcesso_Click);
             // 
             // listViewProcessos
             // 

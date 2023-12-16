@@ -68,5 +68,11 @@ namespace LinhaProducao.Views
         {
 
         }
+
+        private void botaoCadastroSetor_Click(object sender, EventArgs e)
+        {
+            FormularioSetores setor = new FormularioSetores();
+            setor.Show();
+        }
     }
 }

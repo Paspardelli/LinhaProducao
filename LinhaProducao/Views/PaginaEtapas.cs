@@ -68,5 +68,11 @@ namespace LinhaProducao.Views
         {
 
         }
+
+        private void botaoCadastroEtapa_Click(object sender, EventArgs e)
+        {
+            FormularioEtapas Etapa = new FormularioEtapas();
+            Etapa.Show();
+        }
     }
 }

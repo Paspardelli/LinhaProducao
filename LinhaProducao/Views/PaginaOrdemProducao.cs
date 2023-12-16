@@ -73,5 +73,11 @@ namespace LinhaProducao.Views
         {
 
         }
+
+        private void botaoCadastroOrdemProducao_Click(object sender, EventArgs e)
+        {
+            FormularioOrdemProducao ordemProducao = new FormularioOrdemProducao();
+            ordemProducao.Show();
+        }
     }
 }

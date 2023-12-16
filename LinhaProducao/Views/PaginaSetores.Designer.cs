@@ -44,6 +44,7 @@
             this.botaoCadastroSetor.TabIndex = 3;
             this.botaoCadastroSetor.Text = "Cadastrar novo setor";
             this.botaoCadastroSetor.UseVisualStyleBackColor = false;
+            this.botaoCadastroSetor.Click += new System.EventHandler(this.botaoCadastroSetor_Click);
             // 
             // listViewSetores
             // 

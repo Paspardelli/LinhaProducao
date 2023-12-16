@@ -42,7 +42,7 @@
             // 
             this.botaoCadastrar.BackColor = System.Drawing.Color.LimeGreen;
             this.botaoCadastrar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoCadastrar.Location = new System.Drawing.Point(223, 275);
+            this.botaoCadastrar.Location = new System.Drawing.Point(223, 139);
             this.botaoCadastrar.Name = "botaoCadastrar";
             this.botaoCadastrar.Size = new System.Drawing.Size(150, 40);
             this.botaoCadastrar.TabIndex = 16;
@@ -53,7 +53,7 @@
             // 
             this.botaoCancelar.BackColor = System.Drawing.Color.Salmon;
             this.botaoCancelar.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoCancelar.Location = new System.Drawing.Point(19, 275);
+            this.botaoCancelar.Location = new System.Drawing.Point(19, 139);
             this.botaoCancelar.Name = "botaoCancelar";
             this.botaoCancelar.Size = new System.Drawing.Size(150, 40);
             this.botaoCancelar.TabIndex = 15;
@@ -67,7 +67,7 @@
             this.painelCabecalho.Dock = System.Windows.Forms.DockStyle.Top;
             this.painelCabecalho.Location = new System.Drawing.Point(0, 0);
             this.painelCabecalho.Name = "painelCabecalho";
-            this.painelCabecalho.Size = new System.Drawing.Size(800, 67);
+            this.painelCabecalho.Size = new System.Drawing.Size(459, 67);
             this.painelCabecalho.TabIndex = 14;
             // 
             // labelTitulo
@@ -85,7 +85,7 @@
             // 
             this.groupBox1.Controls.Add(this.textBoxNomeProduto);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 209);
+            this.groupBox1.Location = new System.Drawing.Point(12, 73);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(400, 60);
             this.groupBox1.TabIndex = 13;
@@ -103,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(459, 203);
             this.Controls.Add(this.botaoCadastrar);
             this.Controls.Add(this.botaoCancelar);
             this.Controls.Add(this.painelCabecalho);

@@ -66,5 +66,11 @@ namespace LinhaProducao.Views
         {
 
         }
+
+        private void botaoCadastroProcesso_Click(object sender, EventArgs e)
+        {
+            FormularioProcessos processo = new FormularioProcessos();
+            processo.Show();
+        }
     }
 }

@@ -55,5 +55,11 @@ namespace LinhaProducao.Views
         {
 
         }
+
+        private void botaoCadastroProduto_Click(object sender, EventArgs e)
+        {
+            FormularioProdutos produtos = new FormularioProdutos();
+        produtos.Show();
+        }
     }
 }

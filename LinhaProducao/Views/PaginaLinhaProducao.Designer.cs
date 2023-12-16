@@ -44,6 +44,7 @@
             this.botaoCadastroLinhaProducao.TabIndex = 3;
             this.botaoCadastroLinhaProducao.Text = "Cadastrar nova Linha de Produção";
             this.botaoCadastroLinhaProducao.UseVisualStyleBackColor = false;
+            this.botaoCadastroLinhaProducao.Click += new System.EventHandler(this.botaoCadastroLinhaProducao_Click);
             // 
             // listViewLinhaProducao
             // 
