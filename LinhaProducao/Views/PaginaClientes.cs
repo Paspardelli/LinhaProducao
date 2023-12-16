@@ -70,7 +70,8 @@ namespace LinhaProducao.Views
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            FormularioCliente clientes = new FormularioCliente();
+            clientes.Show();
         }
     }
 }

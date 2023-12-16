@@ -18,10 +18,6 @@ namespace LinhaProducao
         public int id_cliente;
 
         public DateTime data_cadastro;
-        public string GetOrdemProducoesInfo()
-        {
-            return $"ID: {this.id} \n  \n ID Empresa: {this.id_empresa} \n ID Setor: {this.id_setor} ID Cliente: {this.id_cliente} \n Data Cadastro: {this.data_cadastro}";
-        }
 
         public List<OrdemProducoes> GetListaOrdemProducoes()
         {

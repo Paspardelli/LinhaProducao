@@ -15,6 +15,56 @@ namespace LinhaProducao.Views
         public PaginaProcessos()
         {
             InitializeComponent();
+
+            try
+            {
+                Processos Processos = new Processos();
+
+                listViewProcessos.Bounds = new Rectangle(new Point(15, 70), new Size(700, 500));
+
+                listViewProcessos.View = View.Details;
+                listViewProcessos.LabelEdit = true;
+                listViewProcessos.AllowColumnReorder = true;
+                listViewProcessos.CheckBoxes = true;
+                listViewProcessos.FullRowSelect = true;
+                listViewProcessos.GridLines = true;
+                listViewProcessos.Sorting = SortOrder.Ascending;
+
+                listViewProcessos.Columns.Add("#", -2, HorizontalAlignment.Left);
+                listViewProcessos.Columns.Add("NOME", -2, HorizontalAlignment.Left);
+                listViewProcessos.Columns.Add("ID_SETOR", -2, HorizontalAlignment.Left);
+
+                foreach (Processos processo in Processos.GetListaProcessos())
+                {
+
+                    ListViewItem item = new ListViewItem("", 0);
+                    item.Checked = true;
+                    item.SubItems.Add(processo.nome);
+                    item.SubItems.Add(processo.id_setor.ToString());
+
+                    listViewProcessos.Items.Add(item);
+                }
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            }
+
+        }
+
+        private void listViewProcessos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PaginaProcessos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
